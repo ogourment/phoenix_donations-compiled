@@ -1,0 +1,12 @@
+{application,phoenix_donations,
+             [{modules,['Elixir.PhoenixDonations',
+                        'Elixir.PhoenixDonations.Cache',
+                        'Elixir.PhoenixDonations.Presentation',
+                        'Elixir.PhoenixDonations.Provider',
+                        'Elixir.PhoenixDonations.Providers.Manifund',
+                        'Elixir.PhoenixDonations.Snapshot']},
+              {optional_applications,[]},
+              {applications,[kernel,stdlib,elixir]},
+              {description,"phoenix_donations"},
+              {registered,[]},
+              {vsn,"0.0.1"}]}.
