@@ -1,6 +1,8 @@
 {application,phoenix_donations,
              [{modules,['Elixir.PhoenixDonations',
                         'Elixir.PhoenixDonations.Cache',
+                        'Elixir.PhoenixDonations.DeclarationSchema',
+                        'Elixir.PhoenixDonations.Declarations',
                         'Elixir.PhoenixDonations.Presentation',
                         'Elixir.PhoenixDonations.Provider',
                         'Elixir.PhoenixDonations.Providers.Manifund',
@@ -9,4 +11,4 @@
               {applications,[kernel,stdlib,elixir]},
               {description,"phoenix_donations"},
               {registered,[]},
-              {vsn,"0.0.1"}]}.
+              {vsn,"0.0.2"}]}.
