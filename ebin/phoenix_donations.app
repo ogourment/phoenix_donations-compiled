@@ -11,4 +11,4 @@
               {applications,[kernel,stdlib,elixir]},
               {description,"phoenix_donations"},
               {registered,[]},
-              {vsn,"0.0.2"}]}.
+              {vsn,"0.0.3"}]}.
