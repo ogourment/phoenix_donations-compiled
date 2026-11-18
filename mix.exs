@@ -14,13 +14,13 @@ defmodule Mix.Tasks.Compile.BinaryPhoenixDonations do
     "ebin/Elixir.PhoenixDonations.Provider.beam" =>
       "075237400FA76C061AED90C04453EE5D022C7535B5F902F1B5D5724422F4FE92",
     "ebin/Elixir.PhoenixDonations.Providers.Manifund.beam" =>
-      "47EC98D656750D307B860D4164F8BE828458AFFA54249D29566F50C1A6D94C32",
+      "7054AE39ED5C302E78A73A1EB4D7E85FE9C90A27D777EECBC95EA5E58AAE0FF3",
     "ebin/Elixir.PhoenixDonations.Snapshot.beam" =>
       "3038B6B3C0BA693B1767BE776E1B457DF22F2451724C2443099CD7146E6486F2",
     "ebin/Elixir.PhoenixDonations.beam" =>
       "A0953E483C7D7F96A6FAF4E79A6BE92D1FEF978F4DFCE5A49897671DD2947C98",
     "ebin/phoenix_donations.app" =>
-      "423D894A0E282D10F90C14974C02C3A0CEC25D83329DE51924DEF01440E8F7C6"
+      "6551E240C5CC4E0285DA5F94A0CD8EABB9A102D93A19CA7CFE57496158D758F2"
   }
 
   @impl true
@@ -55,7 +55,7 @@ defmodule Compiled.PhoenixDonations.MixProject do
   def project do
     [
       app: :phoenix_donations,
-      version: "0.0.3",
+      version: "0.0.4",
       elixir: "~> 1.20.0",
       compilers: [:binary_phoenix_donations],
       deps: [{:ecto, "~> 3.13", [optional: true, runtime: false]}]
